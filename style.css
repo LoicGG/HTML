@@ -12,6 +12,7 @@ body {
 h1 {
     font-size: 3rem;
     color: rgb(16, 0, 85);
+    font-style: italic;
 }
 h2 {
     font-size: 2rem;
