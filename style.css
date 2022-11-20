@@ -11,7 +11,7 @@ body {
 /* Style des titres*/
 h1 {
     font-size: 3rem;
-    font-color: red;
+    color: brown;
 }
 h2 {
     font-size: 2rem;
