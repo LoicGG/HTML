@@ -30,17 +30,12 @@ h6 {
     font-size: 0.8rem;
 }
 */
-/*On poursuit avec la section navigation*/
-nav {
-    display: inline-block;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
+/*On configure la section navigation en block*/
+.barreNav {
+    display: block;
 }
 
-.barreNav {
+.menu {
     display: flex; /*allows me to modify the position of the li children of this ul (to center them)*/
     justify-content: space-evenly; /*centering the content of this ul*/
     list-style-type: none; /*no bullet point for this list*/
@@ -48,6 +43,12 @@ nav {
     padding: 0.5rem; /*setting padding around*/
     border: 0.1rem solid rgb(177, 0, 0);
     background-color: rgb(206, 0, 0);
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 a {
@@ -62,7 +63,7 @@ header {
     text-align: center;
     padding: 0;
     border: 1px solid green;
-    margin: 1.5rem 2rem 1.5rem 2rem;
+    margin: 3rem 2rem 1rem 2rem;
 }
 /*Main*/
 main {
