@@ -68,8 +68,9 @@ header {
     margin: 3rem 2rem 1rem 2rem;
 }
 /*Main*/
-main {
-    margin: 0.5rem;    
+.mainHtml , .mainCSS {
+    margin: 0.5rem;
+    padding-top: 2rem;    
 }
 
 .centeredp {
