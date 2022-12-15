@@ -112,19 +112,19 @@
             <td>&lttitle&gt</td>
             <td>Titre de la page html</td>
           </tr>
-          <!--Balises de section-->
+          <!--Balises de Body-->
           <tr>
-            <td rowspan="6">Section</td>
-            <td>&ltheader&gt</td>
-            <td>En-tête</td>
+            <td rowspan="6">Body</td>
+            <td>&ltnav&gt</td>
+            <td>Barre de navigation</td>
           </tr>
           <tr>
             <td>&ltfooter&gt</td>
             <td>Pied de page</td>
           </tr>
           <tr>
-            <td>&ltnav&gt</td>
-            <td>Barre de navigation</td>
+            <td>&ltheader&gt</td>
+            <td>Tête d'affiche</td>
           </tr>
           <tr>
             <td>&ltsection&gt</td>
@@ -356,7 +356,7 @@
       </table>
   <!-- ---------------------FIN DU TABLEAU DES DIFFERENTES BALISES------   -->
     </section>
-    <section class="htmlAttributes">
+    <section class="htmlCaracteresspeciaux">
       <h4>Code HTML des symboles et caractères spéciaux</h4>
       <p>Il s'agit de remplacer les caractères spéciaux d'un texte (&lt;, &gt;, &#123;, &#125;, &amp;, &#124;) par du code html
          (<mark>&amp;lt;</mark> ou <mark>&amp;amp;</mark> ou encore <mark>&amp#123;</mark>, etc...) 
@@ -802,32 +802,31 @@
         </tbody>
           </table>
     </section>
-  <!-- --------------------- FIN DU TABLEAU DES CARACTERES SPECIAUXszqqsszzzzzzzzzzzzz------   -->
-    <section>  
+  <!-- --------------------- FIN DU TABLEAU DES CARACTERES SPECIAUX------   -->
+    <section class="htmlAttributs">  
       <h3>Attributs</h3>
       <p>Les attributs s'incrustent aux balises et configurent leurs comportements.</p>
       <p>Classons les attributs
         <ul>
           <li>Attributs universels classiques.</li>
           <ul>
-            <li><b>id</b> attribue un identifiant unique et sera rappelé via CSS au moyen de #id</li>
-            <li><b>class</b> attribue une classe et sera rappelé via CSS au moyen de .class</li>
-            <li><b>title</b> contient un texte informatif titrant l'élément relatif</li>
-            <li>alt</li> défini un texte alternatif pour une image ou un visuel.
+            <li><b>id</b> attribue un identifiant unique et sera rappelé via CSS au moyen de <b>#id</b></li>
+            <li><b>class</b> attribue une classe et sera rappelé via CSS au moyen de <b>.class</b></li>
+            <li><b>title</b> contient un texte informatif titrant l'élément relatif.</li> 
           </ul>
           <li>Attributs spécifiques.</li>
           <ul>
-            <li>alt</li>
-            <li>href</li>
-            <li>src</li>
-            <li>target</li>
+            <li><b>alt</b> défini un texte alternatif pour l'affichage d'une image</li>
+            <li><b>href</b> défini l'URL d'un lien</li>
+            <li><b>src</b> défini l'origine d'un élément</li>
+            <li><b>target</b> défini l'endroit où un lien doit être ouvert</li>
           </ul>
           <li>Attributs ajoutés à la version HTML5.</li>
           <ul>
-            <li>contenteditable</li>
-            <li>hidden</li>
-            <li>dropzone</li>
-            <li>draggable</li>
+            <li><b>contenteditable</b> défini si un contenu peut être édité. True ou False.</li>
+            <li>hidden permet de masquer un contenu si la valeur est True</li>
+            <li>dropzone définit si un élément est copié (copy), lié (link) ou déplacé (move) par glisser-déposer.</li>
+            <li>draggable Attribut universel qui définit si le contenu d'un élément peut être glissé et déposé.</li>
             <li>loading</li>
             <li>spellcheck</li>
             <li>role
